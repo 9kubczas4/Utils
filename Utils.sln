@@ -3,13 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWS", "AWS", "{EA077E4E-A76D-4390-A32E-6C2A7ECBE439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils\Utils.csproj", "{3B70DBBA-676E-4D7B-BA0E-FC2C4F08B523}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{FAAA0832-1043-4838-B855-1126A47FD2B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Tests", "Utils.Tests\Utils.Tests.csproj", "{B6286862-564A-47AB-BE37-6ADA6C6E4B6B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0BDD4659-32C9-477D-AB04-7E3FCE21487D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEA7082E-972A-41C4-8218-91691E402176}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B70DBBA-676E-4D7B-BA0E-FC2C4F08B523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B70DBBA-676E-4D7B-BA0E-FC2C4F08B523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B70DBBA-676E-4D7B-BA0E-FC2C4F08B523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B70DBBA-676E-4D7B-BA0E-FC2C4F08B523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6286862-564A-47AB-BE37-6ADA6C6E4B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6286862-564A-47AB-BE37-6ADA6C6E4B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6286862-564A-47AB-BE37-6ADA6C6E4B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6286862-564A-47AB-BE37-6ADA6C6E4B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
